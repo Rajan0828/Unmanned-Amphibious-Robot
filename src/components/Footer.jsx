@@ -5,6 +5,9 @@ import {
   RiYoutubeFill,
   RiSendPlaneFill,
 } from 'react-icons/ri';
+import PLM from '../assets/plm.png';
+import DOST from '../assets/dost.png';
+import Xinyx from '../assets/xinyx.png';
 
 const Footer = () => (
   <footer className="footer section">
@@ -13,18 +16,10 @@ const Footer = () => (
         <div className="footer_sponsors">
           <h3 className="footer_title">Partnered Institutions</h3>
           <div className="sponsor_logos">
+            <img src={PLM} alt="PLM Logo" className="plm_logo" />
+            <img src={DOST} alt="DOST Logo" className="dost_logo" />
             <img
-              src="src/assets/plm.png"
-              alt="PLM Logo"
-              className="plm_logo"
-            />
-            <img
-              src="src/assets/dost.png"
-              alt="DOST Logo"
-              className="dost_logo"
-            />
-            <img
-              src="src/assets/xinyx.png"
+              src={Xinyx}
               alt="Xinyx Logo"
               className="xinyx_logo"
             />

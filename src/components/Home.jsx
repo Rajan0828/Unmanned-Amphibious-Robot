@@ -5,6 +5,7 @@ import {
   RiFacebookCircleFill,
   RiYoutubeFill,
 } from 'react-icons/ri';
+import homeUAR from '../assets/home-UAR.png';
 
 const Home = () => {
   return (
@@ -12,8 +13,8 @@ const Home = () => {
       <div className="home_container container grid">
         <div className="home_content">
           <img
-            src="src\assets\home-UAR.png"
-            alt="image"
+            src={homeUAR}
+            alt="UAR"
             className="home_img unselectable"
           />
           <h1 className="home_title unselectable">
@@ -27,6 +28,7 @@ const Home = () => {
           href="https://www.youtube.com/watch?v=S-Vc3vb7zKw"
           className="home_button button"
           target="_blank"
+          rel="noopener noreferrer"
         >
           See it in Action{' '}
           <RiPlayCircleFill className="button_icon" />
@@ -38,6 +40,7 @@ const Home = () => {
             <a
               href="https://sciforum.net/paper/view/21231"
               target="_blank"
+              rel="noopener noreferrer"
               className="home_social-link"
             >
               <RiBookOpenFill />
@@ -45,6 +48,7 @@ const Home = () => {
             <a
               href="https://www.facebook.com/share/p/1F7FPdVep8/"
               target="_blank"
+              rel="noopener noreferrer"
               className="home_social-link"
             >
               <RiFacebookCircleFill />
@@ -52,6 +56,7 @@ const Home = () => {
             <a
               href="https://www.youtube.com/watch?v=S-Vc3vb7zKw"
               target="_blank"
+              rel="noopener noreferrer"
               className="home_social-link"
             >
               <RiYoutubeFill />

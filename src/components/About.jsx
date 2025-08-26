@@ -1,5 +1,6 @@
 import React from 'react';
 import { RiInformationFill } from 'react-icons/ri';
+import UAR from '../assets/about-UAR.png';
 
 const About = () => (
   <section className="about section" id="about">
@@ -25,7 +26,7 @@ const About = () => (
         </a>
       </div>
       <img
-        src="src\assets\about-UAR.png"
+        src={UAR}
         alt="About Image"
         className="about_img unselectable"
       />
